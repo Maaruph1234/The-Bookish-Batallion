@@ -49,25 +49,39 @@
     </div>
   </section>
 
-  <!-- Book of the Month -->
-  <section id="book" class="gradient-bg">
-    <div class="container text-center" data-aos="fade-up">
-      <h2 class="mb-4">Book of the Month</h2>
-      <div class="card mx-auto shadow-lg" style="max-width: 400px;">
-        <img src="https://via.placeholder.com/300x250.png?text=Book+Cover" class="card-img-top" alt="Book">
-        <div class="card-body text-dark">
-          <h5 class="card-title">Surrounded By Idiots</h5>
-          <p class="card-text">"Surrounded by Idiots" by Thomas Erikson reveals how understanding four personality types—Red, Yellow, Green, and Blue—can transform the way you communicate, build relationships, and reduce everyday misunderstandings</p>
-          <div class="container mt-4">
-            <iframe src="assets/sorrounded-by-idiots.pdf" width="100%" height="600"></iframe>
-            Open PDF
-            </a>
+    <!-- Book of the Month -->
+    <section id="book" class="gradient-bg">
+      <div class="container text-center" data-aos="fade-up">
+        <h2 class="mb-4">Book of the Month</h2>
+        <div class="card mx-auto shadow-lg" style="max-width: 400px;">
+          <img src="https://via.placeholder.com/300x250.png?text=Book+Cover" class="card-img-top" alt="Book">
+          <div class="card-body text-dark">
+            <h5 class="card-title">Surrounded By Idiots</h5>
+            <p class="card-text">
+              "Surrounded by Idiots" by Thomas Erikson reveals how understanding four personality types—
+              Red, Yellow, Green, and Blue—can transform the way you communicate, build relationships,
+              and reduce everyday misunderstandings.
+            </p>
+  
+            <!-- PDF Section -->
+            <div class="container mt-4">
+  
+              <!-- Desktop / Tablet view: show PDF inline -->
+              <div class="d-none d-md-block">
+                <iframe src="assets/sorrounded-by-idiots.pdf" width="100%" height="600" style="border: none;"></iframe>
+              </div>
+  
+              <!-- Mobile view: show Download button -->
+              <div class="d-block d-md-none text-center">
+                <p class="mb-2">📲 PDF viewing isn’t supported on mobile. Please download instead:</p>
+                <a href="assets/sorrounded-by-idiots.pdf" class="btn btn-primary" download>Download PDF</a>
+              </div>
+  
+            </div>
           </div>
-          
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Community -->
   <section id="community">
