@@ -1,0 +1,16 @@
+.btn-gold {
+    background-color: #b0a36e;
+    color: #1a2039;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-gold:hover {
+    background-color: #a1925c;
+    color: #f6f6f7;
+    transform: translateY(-2px);
+  }
+  
